@@ -6,8 +6,12 @@ Console.Write("Введите второе число ");
 int numbersB = Convert.ToInt32(Console.ReadLine());
 if (numbersA > numbersB) max = numbersA;
 if (numbersA > numbersB) min = numbersB;
-if (numbersB > numbersA) max = numbersB;
-if (numbersB > numbersA) min = numbersA;
+else
+{
+    max = numbersB;
+    min = numbersA;
+}
+
 Console.Write("Максимальное число ");
 Console.WriteLine(max);
 Console.Write("Минимальное число ");

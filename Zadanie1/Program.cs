@@ -4,8 +4,11 @@ Console.Write("Введите первое число ");
 int numbersA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число ");
 int numbersB = Convert.ToInt32(Console.ReadLine());
-if (numbersA > numbersB) max = numbersA;
-if (numbersA > numbersB) min = numbersB;
+if (numbersA > numbersB)
+{
+    max = numbersA;
+    min = numbersB;
+} 
 else
 {
     max = numbersB;
